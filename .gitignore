@@ -1,0 +1,30 @@
+# ===== 密钥与环境配置（严禁提交） =====
+.env
+.env.*
+!.env.example
+
+# ===== Python 虚拟环境与缓存 =====
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== 运行产物（按需保留，默认不提交历史报告） =====
+reports/*.md
+!reports/.gitkeep
+
+# ===== 个人学习与设计文档（本地保留，严禁提交开源仓库） =====
+docs/
+
+# ===== 系统杂项 =====
+.DS_Store
+Thumbs.db

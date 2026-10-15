@@ -1,0 +1,32 @@
+# ========================================================
+# Enterprise Deep Research Agent - 直接依赖（版本已锁定）
+# 安装：pip install -r requirements.txt
+# Python 版本：3.11+（开发环境 3.14）
+# ========================================================
+
+# ---- 智能体编排 ----
+langgraph==1.2.14
+langchain-openai==1.7.0
+
+# ---- 数据契约与配置 ----
+pydantic==2.14.1
+pydantic-settings==2.15.0
+python-dotenv==1.2.4
+
+# ---- 工具层（搜索 / 网页抽取 / MCP） ----
+fastmcp==4.1.0
+httpx==0.28.1
+trafilatura==2.3.1
+beautifulsoup4==4.15.0
+duckduckgo-search==8.1.1
+
+# ---- API 服务 ----
+fastapi==0.143.0
+uvicorn==0.54.0
+sse-starlette==3.5.0
+
+# ---- 终端交互 ----
+rich==15.0.0
+
+# ---- 开发与测试 ----
+pytest==9.1.1
